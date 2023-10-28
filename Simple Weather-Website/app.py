@@ -3,7 +3,7 @@ import requests
 
 app = Flask(__name__)
 
-api_key = "8d48e934b10ffdb47b84dcd69ec74035"
+api_key = "my api key"
 
 @app.route('/')
 def weather_form():
